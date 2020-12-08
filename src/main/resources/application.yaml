@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/pizza?prepareThreshold=0
+    username: postgres
+    password: Molten_Core@616
+pizza:
+  delivery:
+    amount: 2
